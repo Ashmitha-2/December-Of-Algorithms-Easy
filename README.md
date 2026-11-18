@@ -50,4 +50,4 @@ Use code with caution.
 - `-2000 ≤ target ≤ 2000`
 
 ### Reference
-- https://codeforces.com
+https://leetcode.com
