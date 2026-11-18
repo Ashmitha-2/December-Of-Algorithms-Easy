@@ -15,7 +15,6 @@ A school is organizing a snack distribution event where students receive snack p
 - Print a single integer representing the total number of valid non-adjacent pairs.
 
 ### Sample Input 1
-Use code with caution.
 5
 1 2 4 5 3
 6
@@ -50,6 +49,7 @@ Use code with caution.
 - `-2000 ≤ target ≤ 2000`
 
 ### Reference
-https://leetcode.com
+Codeforces 1538C – Number of Pairs
+LeetCode – Two Sum
 
 
