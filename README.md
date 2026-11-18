@@ -475,8 +475,8 @@ In sample 1, the lengths are `13, 1, 4, 2`, so sorting in ascending order gives 
 - `1 ≤ length of each string ≤ 100`
 
 ### Reference
--[GeeksforGeeks – Sort an Array of Strings According to String Lengths](https://www.geeksforgeeks.org/sort-array-strings-according-string-lengths/)
-- [LeetCode – Sort the People / Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)
+[GeeksforGeeks – Sort an Array of Strings According to String Lengths](https://www.geeksforgeeks.org/sort-array-strings-according-string-lengths/)
+[LeetCode – Sort the People / Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)
 
 ## 8. The Smart Campus Resource Tracker
 
