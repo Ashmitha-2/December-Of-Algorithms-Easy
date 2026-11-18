@@ -49,7 +49,9 @@ A school is organizing a snack distribution event where students receive snack p
 - `-2000 ≤ target ≤ 2000`
 
 ### Reference
+### Reference
 
-- [Codeforces 1538C – Number of Pairs](https://codeforces.com/problemset/problem/1538/C)
-- [LeetCode – Two Sum](https://leetcode.com/problems/two-sum/)
+- [Codeforces 1538C – Number of Pairs](https://codeforces.com/problemset/problem/1538/C) — Counts pairs whose sum lies within a specified range.
+- [Codeforces 2051D – Counting Pairs](https://codeforces.com/problemset/problem/2051/D) — Counts pairs satisfying a condition involving the array sum.
+
 
