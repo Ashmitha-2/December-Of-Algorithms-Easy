@@ -50,7 +50,7 @@ Use code with caution.
 
 0
 
-Explanation
+###Explanation
 
 In sample 1, the valid pair is (1, 5) at indices (0, 3) summing to 6. In sample 2, valid non-adjacent pairs summing to 5 include (3, 2) at (0, 2), (3, 2) at (0, 4), and (1, 4) at (1, 3). In sample 3, no non-adjacent pair sums to 10.
 
@@ -103,7 +103,7 @@ In sample 1, the combined sorted array is `[1, 2, 3, 4, 6, 7, 8, 9, 10]`, and th
 - Both arrays are sorted in non-decreasing order.
 
 
-- ## 3. Roman Numeral Converter with Digit Sum
+ ## 3. Roman Numeral Converter with Digit Sum
 
 ### Problem Statement
 
@@ -158,9 +158,9 @@ In sample 1, `III` equals `3`, and its digit sum is `3`. In sample 2, `LVIII` eq
 
 ### Reference
 
-- https://leetcode.com/problems/roman-to-integer/
+ https://leetcode.com/problems/roman-to-integer/
 
-- ## 4. Project TRI-FLOW – Detect the Three-Phase Traffic Pattern
+ ## 4. Project TRI-FLOW – Detect the Three-Phase Traffic Pattern
 
 ### Problem Statement
 
@@ -219,7 +219,7 @@ In sample 1, the speeds strictly increase (`1 → 3 → 5`), strictly decrease (
 - Equal adjacent elements are not allowed in valid transitions.
 
 
-- ## 5. Two Sum with Minimum Index Distance
+ ## 5. Two Sum with Minimum Index Distance
 
 ### Problem Statement
 
@@ -384,9 +384,9 @@ In sample 1, the lengths are `13, 1, 4, 2`, so sorting in ascending order gives 
 
 ### Reference
 
-- https://www.geeksforgeeks.org/dsa/sort-array-strings-according-string-lengths/
+ https://www.geeksforgeeks.org/dsa/sort-array-strings-according-string-lengths/
 
-- ## 8. The Smart Campus Resource Tracker
+ ## 8. The Smart Campus Resource Tracker
 
 ### Problem Statement
 
