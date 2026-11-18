@@ -203,7 +203,7 @@ In sample 1, `III` equals `3`, and its digit sum is `3`. In sample 2, `LVIII` eq
 
 - [LeetCode – Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
-  ## 4. Project TRI-FLOW – Detect the Three-Phase Traffic Pattern
+## 4. Project TRI-FLOW – Detect the Three-Phase Traffic Pattern
 
 ### Problem Statement
 
@@ -276,7 +276,7 @@ In sample 1, the speeds strictly increase (`1 → 3 → 5`), strictly decrease (
 
 - LeetCode – Trionic Array I: https://leetcode.com/problems/trionic-array-i/
 
-  ## 5. Two Sum with Minimum Index Distance
+## 5. Two Sum with Minimum Index Distance
 
 ### Problem Statement
 
@@ -351,7 +351,7 @@ In sample 1, `(0, 1)` sums to `9` but has distance `1 < 2`, so `(1, 4)` (`7 + 2 
 
 - LeetCode – Two Sum: https://leetcode.com/problems/two-sum/
 
-  ## 6. Merge Two Sorted Lists (Excluding Negative Nodes)
+## 6. Merge Two Sorted Lists (Excluding Negative Nodes)
 
 ### Problem Statement
 
@@ -475,7 +475,7 @@ In sample 1, the lengths are `13, 1, 4, 2`, so sorting in ascending order gives 
 - `1 ≤ length of each string ≤ 100`
 
 ### Reference
--GeeksforGeeks – Sort Strings According to Their Lengths
+- GeeksforGeeks – Sort an Array of Strings According to Their Lengths
 
 ## 8. The Smart Campus Resource Tracker
 
@@ -529,4 +529,4 @@ In sample 1, the cumulative sums are `10`, `10 + 20 = 30`, `30 + 15 = 45`, `45 +
 - Expected time complexity: `O(n)`; auxiliary space: `O(1)` (excluding output).
 
 ### Reference
--LeetCode – Running Sum of 1D Array (Official)
+- LeetCode – Running Sum of 1D Array: https://leetcode.com/problems/running-sum-of-1d-array/
