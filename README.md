@@ -422,7 +422,7 @@ In sample 1, `-3` is excluded and the remaining nodes merge into `[0, 1, 2, 4, 5
 
 ### Reference
 
--LeetCode – Merge Two Sorted Lists: https://leetcode.com/problems/merge-two-sorted-lists/
+- [LeetCode – Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ## 7. Sort an Array of Strings According to String Lengths
 
@@ -475,7 +475,8 @@ In sample 1, the lengths are `13, 1, 4, 2`, so sorting in ascending order gives 
 - `1 ≤ length of each string ≤ 100`
 
 ### Reference
-GeeksforGeeks – Sort an Array of Strings According to String Lengths: https://www.geeksforgeeks.org/sort-array-strings-according-string-lengths/
+-[GeeksforGeeks – Sort an Array of Strings According to String Lengths](https://www.geeksforgeeks.org/sort-array-strings-according-string-lengths/)
+- [LeetCode – Sort the People / Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)
 
 ## 8. The Smart Campus Resource Tracker
 
