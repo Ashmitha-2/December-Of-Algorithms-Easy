@@ -135,7 +135,7 @@ In sample 1, the combined sorted array is `[1, 2, 3, 4, 6, 7, 8, 9, 10]`, and th
 - [GeeksforGeeks – K-th Element of Merged Two Sorted Arrays](https://www.geeksforgeeks.org/dsa/k-th-element-two-sorted-arrays/)
 
 
-  ## 3. Roman Numeral Converter with Digit Sum
+## 3. Roman Numeral Converter with Digit Sum
 
 ### Problem Statement
 
