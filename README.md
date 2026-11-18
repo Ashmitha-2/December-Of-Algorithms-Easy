@@ -102,9 +102,6 @@ In sample 1, the combined sorted array is `[1, 2, 3, 4, 6, 7, 8, 9, 10]`, and th
 - `0 ≤ a[i], b[i] ≤ 10^9`
 - Both arrays are sorted in non-decreasing order.
 
-### Reference
-
-- K-th Element of Two Sorted Arrays
 
 - ## 3. Roman Numeral Converter with Digit Sum
 
@@ -161,7 +158,7 @@ In sample 1, `III` equals `3`, and its digit sum is `3`. In sample 2, `LVIII` eq
 
 ### Reference
 
-- Roman to Integer
+- https://leetcode.com/problems/roman-to-integer/
 
 - ## 4. Project TRI-FLOW – Detect the Three-Phase Traffic Pattern
 
@@ -221,9 +218,6 @@ In sample 1, the speeds strictly increase (`1 → 3 → 5`), strictly decrease (
 - `0 ≤ speed[i] ≤ 10^9`
 - Equal adjacent elements are not allowed in valid transitions.
 
-### Reference
-
-- Check if an Array is Bitonic
 
 - ## 5. Two Sum with Minimum Index Distance
 
@@ -285,9 +279,6 @@ In sample 1, `(0, 1)` sums to `9` but has distance `1 < 2`, so `(1, 4)` (`7 + 2 
 - `1 ≤ D < N`
 - `-10^9 ≤ A[i], T ≤ 10^9`
 
-### Reference
-
-- Two Sum
 
 ## 6. Merge Two Sorted Lists (Excluding Negative Nodes)
 
@@ -347,9 +338,6 @@ In sample 1, `-3` is excluded and the remaining nodes merge into ``. In sample 2
 - `-1000 ≤ Node.val ≤ 1000`
 - Both `list1` and `list2` are sorted in non-decreasing order.
 
-### Reference
-
-- Merge Two Sorted Lists
 
 ## 7. Sort an Array of Strings According to String Lengths
 
@@ -396,7 +384,7 @@ In sample 1, the lengths are `13, 1, 4, 2`, so sorting in ascending order gives 
 
 ### Reference
 
-- Sort an Array of Strings According to String Lengths
+- https://www.geeksforgeeks.org/dsa/sort-array-strings-according-string-lengths/
 
 - ## 8. The Smart Campus Resource Tracker
 
@@ -442,6 +430,3 @@ In sample 1, the cumulative sums are `10`, `10 + 20 = 30`, `30 + 15 = 45`, `45 +
 - `0 ≤ registrations[i] ≤ 10^6`
 - Expected time complexity: `O(n)`; auxiliary space: `O(1)` (excluding output).
 
-### Reference
-
-- Running Sum of 1d Array
