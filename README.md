@@ -585,4 +585,5 @@ In sample 1, the minimum length subarray with a sum strictly greater than `51` i
 - Expected time complexity: `O(n)`; auxiliary space: `O(1)`.
 
 ### Reference
-- GeeksforGeeks – Smallest Subarray Sum Greater Than x
+- [GeeksforGeeks – Smallest Subarray with Sum Greater than a Given Value](https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/)
+- [LeetCode – Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
