@@ -531,3 +531,58 @@ In sample 1, the cumulative sums are `10`, `10 + 20 = 30`, `30 + 15 = 45`, `45 +
 
 ### Reference
 - LeetCode – Running Sum of 1D Array: https://leetcode.com/problems/running-sum-of-1d-array/
+
+## 9. Smallest Subarray with Sum Greater Than a Given Value
+
+### Problem Statement
+
+Given a number `x` and an array of integers `arr[]`, find the length of the smallest contiguous subarray with a sum strictly greater than `x`. If no such subarray exists, return `0`.
+
+### Input Format
+
+- The first line contains two integers `n` and `x`, representing the size of the array and the target value `x`.
+- The second line contains `n` space-separated integers representing `arr[]`.
+
+### Output Format
+
+Print a single integer representing the minimum subarray length with sum strictly greater than `x`, or `0` if none exists.
+
+### Sample Input 1
+
+~~~
+6 51
+1 4 45 6 0 19
+~~~
+
+### Sample Output 1
+
+~~~
+3
+~~~
+
+### Sample Input 2
+
+~~~
+5 100
+1 10 5 2 7
+~~~
+
+### Sample Output 2
+
+~~~
+0
+~~~
+
+### Explanation
+
+In sample 1, the minimum length subarray with a sum strictly greater than `51` is `[4, 45, 6]`, which has length `3` and sum `55`. In sample 2, the entire array sums to `25`, so no subarray has a sum greater than `100`.
+
+### Constraints
+
+- `1 ≤ n ≤ 10^5`
+- `1 ≤ arr[i] ≤ 10^4`
+- `1 ≤ x ≤ 10^9`
+- Expected time complexity: `O(n)`; auxiliary space: `O(1)`.
+
+### Reference
+- GeeksforGeeks – Smallest Subarray Sum Greater Than x
