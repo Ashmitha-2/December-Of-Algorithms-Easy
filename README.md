@@ -653,3 +653,126 @@ In Sample 1, the original finishing order is `[3, 1, 2, 5, 4]`. Among these part
 ### Reference
 
 - https://leetcode.com/problems/restore-finishing-order/description/?envType=problem-list-v2&envId=hash-table
+
+## 11. Valid Palindrome
+
+### Problem Statement
+
+You are given a string `password` representing a password entered by a user.
+
+A password is considered valid if it reads the same forward and backward after converting all uppercase letters into lowercase and removing all spaces and special characters.
+
+Determine whether the given password is a palindrome. Return `true` if it is a palindrome; otherwise, return `false`.
+
+### Input Format
+
+- The first line contains a string `password`.
+
+### Output Format
+
+Print `true` if the password is a palindrome; otherwise, print `false`.
+
+### Sample Input 1
+
+~~~
+Madam
+~~~
+
+### Sample Output 1
+
+~~~
+true
+~~~
+
+### Sample Input 2
+
+~~~
+Hello World
+~~~
+
+### Sample Output 2
+
+~~~
+false
+~~~
+
+### Explanation
+
+In Sample 1, after converting the string to lowercase, it becomes `"madam"`. Reading it forward and backward gives the same result, so the output is `true`.
+
+In Sample 2, `"helloworld"` is not the same when reversed, so the output is `false`.
+
+### Constraints
+
+- `1 ≤ password.length ≤ 200000`
+- The string contains printable ASCII characters.
+- The comparison must be case-insensitive.
+- Only letters and digits are considered during palindrome checking.
+
+### Reference
+
+- https://leetcode.com/problems/valid-palindrome/
+
+## 12. Add Digits
+
+### Problem Statement
+
+You are given a positive integer `num` representing a transaction ID.
+
+To generate a verification digit, repeatedly calculate the sum of all digits of the number until the result contains only a single digit.
+
+Return the final single-digit result.
+
+### Input Format
+
+- The first line contains an integer `num`.
+
+### Output Format
+
+Print the final single-digit sum.
+
+### Sample Input 1
+
+~~~
+38
+~~~
+
+### Sample Output 1
+
+~~~
+2
+~~~
+
+### Sample Input 2
+
+~~~
+999
+~~~
+
+### Sample Output 2
+
+~~~
+9
+~~~
+
+### Explanation
+
+In Sample 1:
+- First iteration: `3 + 8 = 11`.
+- Second iteration: `1 + 1 = 2`.
+- Since `2` is a single-digit number, the process stops and the output is `2`.
+
+In Sample 2:
+- `9 + 9 + 9 = 27`.
+- `2 + 7 = 9`.
+- Therefore, the output is `9`.
+
+### Constraints
+
+- `0 ≤ num ≤ 2^31 - 1`
+- The input is a non-negative integer.
+- The process must continue until a single-digit number is obtained.
+
+### Reference
+
+- https://leetcode.com/problems/add-digits/
