@@ -587,3 +587,69 @@ In sample 1, the minimum length subarray with a sum strictly greater than `51` i
 ### Reference
 - [GeeksforGeeks – Smallest Subarray with Sum Greater than a Given Value](https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/)
 - [LeetCode – Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+
+## 10. Restore Friends' Finishing Order
+
+### Problem Statement
+
+You are given an integer array `order` of length `n`, representing the finishing order of participants in a race. Each participant has a unique ID from `1` to `n`.
+
+You are also given an integer array `friends`, containing the IDs of your friends in strictly increasing order.
+
+Find and return an array containing only your friends' IDs, arranged according to their actual finishing order in the race.
+
+### Input Format
+
+- The first line contains two integers `n` and `m`, representing the number of participants and the number of friends, respectively.
+- The second line contains `n` space-separated integers representing the participants' finishing order.
+- The third line contains `m` space-separated integers representing the IDs of your friends.
+
+### Output Format
+
+Print the IDs of your friends in their finishing order, separated by spaces.
+
+### Sample Input 1
+
+~~~
+5 3
+3 1 2 5 4
+1 3 4
+~~~
+
+### Sample Output 1
+
+~~~
+3 1 4
+~~~
+
+### Sample Input 2
+
+~~~
+5 2
+1 4 5 3 2
+2 5
+~~~
+
+### Sample Output 2
+
+~~~
+5 2
+~~~
+
+### Explanation
+
+In Sample 1, the original finishing order is `[3, 1, 2, 5, 4]`. Among these participants, IDs `1`, `3`, and `4` belong to your friends, so their finishing order is `[3, 1, 4]`. In Sample 2, the friends have IDs `2` and `5`, and since participant `5` finishes before participant `2`, the resulting order is `[5, 2]`.
+
+### Constraints
+
+- `1 ≤ n ≤ 100`
+- `1 ≤ m ≤ min(8, n)`
+- `order` contains every integer from `1` to `n` exactly once.
+- `1 ≤ friends[i] ≤ n`
+- The `friends` array is sorted in strictly increasing order.
+- Every ID in `friends` is guaranteed to exist in `order`.
+- Target auxiliary space: `O(m)`
+
+### Reference
+
+- https://leetcode.com/problems/restore-finishing-order/description/?envType=problem-list-v2&envId=hash-table
